@@ -4,5 +4,5 @@
 
 namespace SDL
 {
-    const auto& delay = SDL_Delay;
+    static inline auto& delay = SDL_Delay;
 } 

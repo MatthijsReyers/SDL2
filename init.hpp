@@ -4,8 +4,8 @@
 
 namespace SDL
 {
-    const auto& init = SDL_Init;
-    const auto& quit = SDL_Quit;
+    static inline auto& init = SDL_Init;
+    static inline auto& quit = SDL_Quit;
 
     enum InitFlags
     {
